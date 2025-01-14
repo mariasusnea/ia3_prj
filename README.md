@@ -9,6 +9,7 @@ Se utilizează tehnici de optimizare bazate pe gradient (de exemplu, Adam) pentr
 c este ajustat dinamic pentru a regla compromisul între cele două obiective (perturbație mică vs. clasificare greșită eficientă).
 
 PDG (Projected Gradient Descent) + Antrenament Adversarial
+
 PDG este o metodă pentru generarea de exemple adversariale prin aplicarea iterativă a unor actualizări bazate pe gradient, pentru a maximiza pierderea unei rețele neuronale. Antrenamentul adversarial este un mecanism de apărare care integrează exemplele adversariale în procesul de antrenament pentru a îmbunătăți robustețea modelului.
 1. Generarea Exemplarelor Adversariale
 2. Tăierea la Intervalul Valid
